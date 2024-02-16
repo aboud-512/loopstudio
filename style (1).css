@@ -1,0 +1,161 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.head
+{
+    position: relative;
+}
+.head1
+{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 75px;
+    padding: 0 10%;
+}
+.linkk
+{
+    width: 40%;
+    display: flex;
+    gap: 10%;
+    color: white;
+}
+.box{
+    border: 2px solid whitesmoke;
+    color: white;
+    text-transform:uppercase ;
+    width: 500px;
+    height: 280px;
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 80px;
+    font-size: 80px;
+    padding: -15px;
+    padding-left: 36px;
+}
+.menu
+{
+    display: none;
+}
+.disc
+{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.img-disc
+{
+  position: relative;
+}
+.content
+{
+    padding: 10px;
+    position: absolute;
+    width: 20%;
+    overflow-x: hidden;
+    height: auto;
+    background-color: white;
+    margin-top: 30%;
+    margin-left: 40%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+.our
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: xx-large;
+}
+.bt
+{
+    all: unset;
+    border: 2px solid black;
+    padding: 10px 30px;
+}
+.img-con
+{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap:2%;
+    flex-wrap: wrap;
+}
+.img-con img
+{
+    margin-bottom: 4%;
+}
+.firstside
+{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.logo-inf
+{
+    padding: 10px;
+    width: 100%;
+    gap: 6%;
+}
+.ll
+{
+    width: 100%;
+}
+.fotter-links
+{
+    display: flex;
+    color: aliceblue;
+    gap: 2%;
+    cursor: pointer;
+}
+.logos
+{
+    width: 100%;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap:30%;
+}
+
+section .copy{
+    display: inline-block;
+    color: white;
+}
+@media (max-width:767px) {
+    .linkk{
+        display: none;
+        flex-flow: column wrap;
+        position: relative;
+    }
+    .menu
+    {
+        display: block;
+    }
+    .content
+    {
+        display: block;
+        margin: 10px;
+        padding: 10px;
+        height: auto;
+        width: auto;
+    }
+    .disc
+    {
+        display: block;
+    }
+    .box{
+        bottom:  350px;
+        width:25%;
+        height: 30%;
+        font-size:30px
+    }
+}
